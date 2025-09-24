@@ -10,6 +10,17 @@ M.servers = {
       }
     }
   },
+  basedpyright = {
+    settings = {
+      basedpyright = {
+        analysis = {
+          typeCheckingMode = "basic",
+          autoImportCompletions = true,
+          autoSearchPaths = true,
+        }
+      }
+    }
+  },
   tsserver = nil,
 
   -- Only specify settings when you need them

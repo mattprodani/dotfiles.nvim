@@ -17,7 +17,7 @@ local M =
     })
 
     local lspconfig = require("lspconfig")
-    local capabilities = vim.lsp.protocol.make_client_capabilities()
+    local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 
     for server_name, server_config in pairs(servers_config.servers) do
       local config = server_config or {}
