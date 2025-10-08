@@ -35,6 +35,7 @@ vim.keymap.set('n', '<leader>fb', '<cmd>Telescope buffers<cr>', { desc = "(f)ind
 vim.keymap.set('n', '<leader>fc', '<cmd>Telescope current_buffer_fuzzy_find<cr>', { desc = "(f)ind in (c)urrent buffer" })
 vim.keymap.set('n', '<leader>km', '<cmd>Telescope keymaps<cr>', { desc = "(k)ey (m)aps" })
 vim.keymap.set('n', '<leader>sg', '<cmd>Telescope live_grep<cr>', { desc = "(s)earch (g)rep" })
+vim.keymap.set('n', '<leader>sv', '<cmd>split | Oil<cr>', { desc = "(s)plit (v)ertical and open oil" })
 vim.keymap.set('n', ';', ':', { desc = "remap for :" })
 vim.keymap.set('n', ':', ';', { desc = "remap for :" })
 
