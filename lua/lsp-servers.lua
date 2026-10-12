@@ -21,7 +21,7 @@ M.servers = {
       }
     }
   },
-  tsserver = nil,
+  ts_ls = {},
 
   -- Only specify settings when you need them
   clangd = {

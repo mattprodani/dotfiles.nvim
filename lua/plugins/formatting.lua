@@ -16,13 +16,13 @@ return {
     formatters_by_ft = {
       lua = { "stylua" },
       python = { "isort", "black" },
-      javascript = { { "prettierd", "prettier" } },
-      typescript = { { "prettierd", "prettier" } },
+      javascript = { "prettierd", "prettier" },
+      typescript = { "prettierd", "prettier" },
       rust = { "rustfmt" },
       go = { "goimports", "gofmt" },
       json = { "jq" },
       yaml = { "yamlfix" },
-      markdown = { { "prettierd", "prettier" } },
+      markdown = { "prettierd", "prettier" },
     },
     format_on_save = {
       timeout_ms = 500,
